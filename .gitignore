@@ -24,6 +24,13 @@ DerivedData/
 
 ## Obj-C/Swift specific
 *.hmap
+*.ipa
+*.xcuserstate
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
 
 ## App packaging
 *.ipa
@@ -57,7 +64,7 @@ playground.xcworkspace
 # Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+ *.xcworkspace
 
 # Carthage
 #
