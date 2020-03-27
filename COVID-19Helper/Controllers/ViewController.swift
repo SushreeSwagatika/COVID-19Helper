@@ -37,11 +37,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let request = AF.request("https://www.covid19india.org", method: .get)
-        request.response { (response) in
-            guard let data = response.value else { return }
-            print(data)
-        }
+        
         // all data
         fetch_COVID_19_Data(withKey: all_location_key)
         
@@ -90,7 +86,7 @@ class ViewController: UIViewController {
             else {
                 self.all_COVID_19_Data = report
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 self.updateView()
             }
             
