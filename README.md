@@ -13,7 +13,3 @@
 - iOS 7.0 or later
 - Xcode 7.3 or later
 
-## License
-
- Read the [License](https://github.com/SushreeSwagatika/SSImageEditor/blob/master/LICENSE.md)
-
